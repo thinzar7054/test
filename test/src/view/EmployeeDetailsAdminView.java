@@ -29,7 +29,7 @@ public class EmployeeDetailsAdminView extends JFrame {
 	private static JTextField txtJobTitle;
  
 	public EmployeeDetailsAdminView() {
-		setTitle("Employee Directory");
+		setTitle("Employee Directory1");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(1139, 900);
 		setLocationRelativeTo(null);
