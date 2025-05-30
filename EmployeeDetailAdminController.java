@@ -80,7 +80,7 @@ public class EmployeeDetailAdminController {
             ps.setBoolean(6, dain.isManager());
             ps.setInt(7, dain.isActive() ? 1 : 0);
             ps.setInt(8, dain.isAgreement() ? 1 : 0);
-            ps.setString(10, getDepIdByDepName(dain.getDep_id()));
+            ps.setString(9, getDepIdByDepName(dain.getDep_id()));
             ps.setString(10, getPostIdByPostName(dain.getPos_id()));
             ps.setString(11, dain.getPassword());
 
